@@ -39,7 +39,7 @@ type PostDetail = {
 };
 
 export default function Home() {
-  const postManagerContract = "0x5edEdA69Fcc23dB6BF82d878Ea3A9284a5E65B5f"; //postManager smart contract address
+  const postManagerContract = "0xd54bbc32e09790df3eb215bc889d20155a3184d9"; //postManager smart contract address
 
   //variables
   const [token, setToken] = useState<string>("");
